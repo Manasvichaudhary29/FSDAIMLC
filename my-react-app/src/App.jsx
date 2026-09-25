@@ -1,9 +1,11 @@
-import ICardGallery from "./components/ICardGallery";
-
+import React from 'react';
+import StateHandling from './components/statehandling';
 function App() {
   return (
-    <ICardGallery />
-  )
+    <div>
+      <StateHandling/>
+    </div>
+  );
 }
 
-export default App
+export default App;
